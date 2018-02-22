@@ -10,7 +10,7 @@ Given n=50 people in a social network. Suppose any given unordered pair of two p
 (b) Each exponential random sample represents the waiting time until an event occurs. Implement a routine to count the number of exponentially-distributed time intervals that occur in 1 time unit. Generate such counts for 1000 separate unit time intervals. These counts distributed as Poisson distribution.
 
 [Double Rejection] 
-The random variable X has a bimodal distribution made up of an equally weighted, convex summation of a beta and a triangle distribution: f(x)=0.5×Beta(8,5),0<x≤1 
+The random variable X has a bimodal distribution made up of an equally weighted, convex summation of a beta and a triangle distribution: f(x)=0.5×Beta(8,5),0<x≤1 /n
      0.5×(x−4),4<x≤5 
      −0.5×(x−6),5<x≤6 0,else 
 Implement rejection sampling routines for X. Generate 1000 samples of the random variable using each envelope. Track the rejection rate of your rejection sampling RNGs. The rejection rate is the average number of rejected candidates per sample. This is a measure of the efficiency of your RNG.
